@@ -1,0 +1,17 @@
+{
+  "name": "supplyframe-api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Application calls and oAuth for HAD API (dev.hackaday.io)",
+  "repository": "~~~~~fill this in~~~~~~",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}

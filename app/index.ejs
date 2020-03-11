@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SupplyFrame</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/js/ajax.js"></script>
+    <script src="static/js/datagrid.js"></script>
+    <script src="static/js/tooltip.js"></script>
+</head>
+</body>
+    <h2>Hackaday.io - SupplyFrame</h2>
+    <div class="supplyframe-grid"></div>
+<body>
+
+<script type="text/javascript">
+
+(function() {
+    initial();
+}());
+
+function initial() {
+    var datagrid = new Datagrid({
+        pageSize: 10,
+        page: 1,
+        url: '/projects',
+        tooltipField: 'owner_id',
+        tooltipBaseUrl: '/users',
+
+        projectField: 'id',
+        
+        widthMap: {
+            description: '1000px',
+            summary: '300px'
+        }
+    });
+
+    var tooltip = new Tooltip();
+}
+
+</script>
+</html>

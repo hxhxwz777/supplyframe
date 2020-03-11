@@ -1,0 +1,32 @@
+
+
+
+.supplyframe-grid thead {
+    color:green;
+}
+
+.supplyframe-grid tbody {
+    color:blue;
+}
+
+.supplyframe-grid table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.supplyframe-tooltip {
+    border: 3px solid #fff;
+    display: inline-block;
+    font-size: .875em;
+    padding: .75em;
+    position: absolute;
+    background: #242424;
+    background: linear-gradient(to bottom, #6e6e6e 0%, #242424 100%);
+    box-shadow: 0px 0px 6px 2px #6e6e6e;
+    color: #fff
+}
+
+body {
+    font-family: sans-serif;
+    height: 2000px;
+}
